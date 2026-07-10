@@ -1,0 +1,3 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:contact-page "https://www.wikidata.org/wiki/Q84", :ooyake-id "gov.gbr", :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)", :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored", :official-url "https://www.gov.uk/", :hq {:line-en "London", :country "gbr", :kind "capital", :provenance "https://www.wikidata.org/wiki/Q84", :last-verified "2026-06-04", :sourcing "authoritative"}, :wikidata "Q145", :name-en "United Kingdom", :name-local "United Kingdom"}
