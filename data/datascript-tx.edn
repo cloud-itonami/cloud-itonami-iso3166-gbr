@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "gbr.companies-act-2006"
+           :title "Companies Act 2006"
+           :jurisdiction "GBR"
+           :kind :law
+           :law-number "2006 c. 46"
+           :url "https://www.legislation.gov.uk/ukpga/2006/46/contents"
+           :url-provenance :official-legislation-gov-uk
+           :enacted-date "2006-11-08"
+           :retrieved-at "2026-07-14"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "gbr.data-protection-act-2018"
+           :title "Data Protection Act 2018"
+           :jurisdiction "GBR"
+           :kind :law
+           :law-number "2018 c. 12"
+           :url "https://www.legislation.gov.uk/ukpga/2018/12/contents"
+           :url-provenance :official-legislation-gov-uk
+           :enacted-date "2018-05-23"
+           :retrieved-at "2026-07-14"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "gbr.employment-rights-act-1996"
+           :title "Employment Rights Act 1996"
+           :jurisdiction "GBR"
+           :kind :law
+           :law-number "1996 c. 18"
+           :url "https://www.legislation.gov.uk/ukpga/1996/18/contents"
+           :url-provenance :official-legislation-gov-uk
+           :enacted-date "1996-05-22"
+           :retrieved-at "2026-07-14"
+           :topic [:labor :employment]}]
