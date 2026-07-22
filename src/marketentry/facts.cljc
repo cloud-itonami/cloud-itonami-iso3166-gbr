@@ -16,19 +16,7 @@
           :rep-provenance "https://www.gov.uk/government/organisations/companies-house"
           :corporate-number-owner-authority "HMRC"
           :corporate-number-legal-basis "VAT registration number"
-          :corporate-number-provenance "https://www.gov.uk/vat-registration"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR"
-          :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record"
-                              "State business registration record" "SAM UEI verification record"]}
-   "JPN" {:name "Japan" :owner-authority "GEPS" :legal-basis "unified qualification"
-          :national-spec "GEPS" :provenance "https://www.chotatujoho.go.jp/va/com/ShikakuTop.html"
-          :required-evidence ["法人番号確認記録" "全省庁統一資格申請記録"
-                              "GEPS 事業者登録記録" "日本居住代理人確認記録"]}
-   "DEU" {:name "Germany" :owner-authority "e-Vergabe" :legal-basis "GWB/VgV"
-          :national-spec "e-Vergabe" :provenance "https://www.evergabe-online.de/"
-          :required-evidence ["Handelsregister extract" "e-Vergabe registration record"
-                              "USt-IdNr record" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.gov.uk/vat-registration"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
